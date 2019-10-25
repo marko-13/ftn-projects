@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web shop</title>
+	<meta charset="UTF-8">
+	<script src="jquery-3.3.1.min.js"></script>
+	<link href="Bootstrap/css/bootstrap.minFlaty.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+	<script src="category.js"></script>
+		
+<!--BOJA SIDEBAR #4682B4 IPAK NE OVA BOJA -->
+	<style>
+		.wrapper {
+		    display: flex;
+		    align-items: stretch;
+		}
+		
+		#sidebar {
+		    min-width: 250px;
+		    max-width: 250px;
+		    min-height: 100vh;
+		    background: DimGrey;
+    		color: #fff;
+    		transition: all 0.3s;
+		}
+		
+		#sidebar.active {
+		    margin-left: -250px;
+		}
+		
+		#sidebar .sidebar-header {
+		    padding: 20px;
+		    background: DimGrey;
+		    border-bottom: 2px solid #47748b;
+		}
+		
+		#sidebar ul.components {
+		    padding: 20px 0;
+		    border-bottom: 2px solid #47748b;
+		}
+		
+		#sidebar ul p {
+		    color: #fff;
+		    padding: 10px;
+		}
+		
+		#sidebar ul li a {
+		    padding: 10px;
+		    font-size: 1.1em;
+		    display: block;
+		    
+		}
+		#sidebar ul li a:hover {
+		    color: DimGrey;
+		    background: #fff;
+		    
+		}
+		
+		#sidebar ul li.active > a, a[aria-expanded="true"] {
+		    color: #fff;
+		    background: DimGrey;
+		}
+		ul ul a {
+		    font-size: 1.0em !important;
+		    padding-left: 30px !important;
+		    background: #47748b;
+		    color: #fff;
+		}
+		
+		@media (max-width: 768px) {
+		    #sidebar {
+		        margin-left: -250px;
+		    }
+		    #sidebar.active {
+		        margin-left: 0;
+		    }
+		}
+		
+		.hamburger{
+			display: inline-block;
+			cursor: pointer;
+		}
+		
+		.bar1, .bar2, .bar3{
+			width: 25px;
+			height: 3px;
+			background-color: #fff;
+			margin: 5px 0;
+			transition: 0.4s;
+		}
+		
+		.adIcons:hover{
+			opacity: .35;
+		}
+
+	</style>
+	
+	
+	
+</head>
+<body style="overflow-y:scroll;">
+
+
+	
+	<div class="wrapper" >
+		
+		<!--SIDEBAR POCINJE -->
+		<nav id="sidebar">
+	        <div class="sidebar-header">
+	            <h3>Options</h3>
+	        </div>
+	
+<!-- SIDEBAR OPCIJE ZA ADMINA -->
+			<div id="options_admin">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="#categorySubmenuAdmin" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Category</a>
+		                <ul class="collapse list-unstyled" id="categorySubmenuAdmin">
+		                    <li>
+		                        <a href="#">Create category</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Edit category</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Delete category</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#messageSubmenuAdmin" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Messages</a>
+		                <ul class="collapse list-unstyled" id="messageSubmenuAdmin">
+		                    <li>
+		                        <a href="#">Compose</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Edit message</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Delete message</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#" id="href_open_modal" data-toggle="modal"
+		                   data-target="#change_role_modal">Change user role</a>
+		            </li>
+		        </ul>
+			</div>
+<!-- SIDEBAR OPCIJE ZA PRODAVCA -->
+			<div id="options_seller">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="#advertisementSubmenuSeller" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Advertisements</a>
+		                <ul class="collapse list-unstyled" id="advertisementSubmenuSeller">
+		                    <li>
+		                        <a href="#" id="href_create_ad">Create ad</a>
+		                    <!--  </li>
+		                    <li>
+		                        <a href="#">Edit ad</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Delete ad</a>
+		                    </li> -->
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#messageSubmenuSeller" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Messages</a>
+		                <ul class="collapse list-unstyled" id="messageSubmenuSeller">
+		                    <li>
+		                        <a href="#">Compose</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Edit message</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Delete message</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#">Contact</a>
+		            </li>
+		        </ul>
+			</div>
+<!-- SIDEBAR OPCIJE ZA KUPCA -->
+			<div id="options_buyer">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="#reviewSubmenuBuyer" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Review</a>
+		                <ul class="collapse list-unstyled" id="reviewSubmenuBuyer">
+		                    <li>
+		                        <a href="#">Create review</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Edit review</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Delete review</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#messageSubmenuBuyer" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Messages</a>
+		                <ul class="collapse list-unstyled" id="messageSubmenuBuyer">
+		                    <li>
+		                        <a href="#">Compose</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Edit message</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Delete message</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#">Contact</a>
+		            </li>
+		        </ul>
+			</div>
+
+<!-- SIDEBAR OPCIJE ZA NEREGISTROVANOG -->
+			<div id="options_unregistered">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="./login.html">Register</a>
+		            </li>
+		            <li class="active">
+		                <a href="#">Contact</a>
+		            </li>
+		        </ul>
+			</div>
+	    </nav>
+		<!--GOTOV SIDEBAR -->
+
+
+		<!--HEADER STRANICE -->
+	<div id="content" style="width:100%">
+	<nav class="navbar navbar-default navbar-expand-lg navbar-fixed-top" style="background:#fff; 
+			margin-top:10px; margin-bottom:20px; border-bottom:2px solid #47748b;" >
+		<div class="container-fluid">
+			
+			<button type="button" id="sidebarCollapse" class="btn btn-primary btn-sm" >
+			
+				<div class="container hamburger">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+					
+            </button>
+			
+			<a href="webshop.html" class="navbar-brand" style="color:black;">WebShop</a>
+			
+			<table class="nav navbar-nav">
+			<tr>
+				<td>
+					<input class="form-control" type="text" id="user_search" 
+placeholder="Search products..."/>
+				</td>
+				
+				<td>
+					<input type="image" src="Img/search1.png" id="btn_user_search"/>
+				</td>
+			</table>
+			
+			<table>
+			<tr>
+				<td>
+					<label id="welcome_text" style="color:black;">Welcome, user</label>
+				</td>
+				<td>
+					<img src="Img/userMedium.png" id="img_icon"/>
+				</td>
+				<td>
+					<button class="btn btn-primary" id="btn_logout">Logout</button>
+			</tr>
+			</table>
+		
+		
+		</div>
+	
+	</nav>
+<!--GOTOV HEADER STRANICE -->
+
+
+		
+		<!-- POCINJE PAGE CONTENT -->
+		
+		
+		
+		
+		
+		
+		<!-- GOTOV PAGE CONTENT -->
+		</div>
+	</div>
+
+
+
+</body>
+</html>

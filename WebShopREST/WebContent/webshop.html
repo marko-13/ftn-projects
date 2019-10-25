@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web shop</title>
+	<meta charset="UTF-8">
+	<script src="jquery-3.3.1.min.js"></script>
+	<link href="Bootstrap/css/bootstrap.minFlaty.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+	<script src="webshop.js"></script>
+		
+<!--BOJA SIDEBAR #4682B4 IPAK NE OVA BOJA -->
+	<style>
+		.wrapper {
+		    display: flex;
+		    align-items: stretch;
+		}
+		
+		#sidebar {
+		    min-width: 250px;
+		    max-width: 250px;
+		    min-height: 100vh;
+		    background: DimGrey;
+    		color: #fff;
+    		transition: all 0.3s;
+		}
+		
+		#sidebar.active {
+		    margin-left: -250px;
+		}
+		
+		#sidebar .sidebar-header {
+		    padding: 20px;
+		    background: DimGrey;
+		    border-bottom: 2px solid #47748b;
+		}
+		
+		#sidebar ul.components {
+		    padding: 20px 0;
+		    border-bottom: 2px solid #47748b;
+		}
+		
+		#sidebar ul p {
+		    color: #fff;
+		    padding: 10px;
+		}
+		
+		#sidebar ul li a {
+		    padding: 10px;
+		    font-size: 1.1em;
+		    display: block;
+		    
+		}
+		#sidebar ul li a:hover {
+		    color: DimGrey;
+		    background: #fff;
+		    
+		}
+		
+		#sidebar ul li.active > a, a[aria-expanded="true"] {
+		    color: #fff;
+		    background: DimGrey;
+		}
+		ul ul a {
+		    font-size: 1.0em !important;
+		    padding-left: 30px !important;
+		    background: #47748b;
+		    color: #fff;
+		}
+		
+		@media (max-width: 768px) {
+		    #sidebar {
+		        margin-left: -250px;
+		    }
+		    #sidebar.active {
+		        margin-left: 0;
+		    }
+		}
+		
+		.hamburger{
+			display: inline-block;
+			cursor: pointer;
+		}
+		
+		.bar1, .bar2, .bar3{
+			width: 25px;
+			height: 3px;
+			background-color: #fff;
+			margin: 5px 0;
+			transition: 0.4s;
+		}
+		
+		.adIcons:hover{
+			opacity: .35;
+		}
+		
+		/* The switch - the box around the slider */
+		.switch {
+		  position: relative;
+		  display: inline-block;
+		  width: 60px;
+		  height: 34px;
+		}
+		
+		/* Hide default HTML checkbox */
+		.switch input {
+		  opacity: 0;
+		  width: 0;
+		  height: 0;
+		}
+		
+		/* The slider */
+		.slider {
+		  position: absolute;
+		  cursor: pointer;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background-color: #ccc;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+		
+		.slider:before {
+		  position: absolute;
+		  content: "";
+		  height: 26px;
+		  width: 26px;
+		  left: 4px;
+		  bottom: 4px;
+		  background-color: white;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+		
+		input:checked + .slider {
+		  background-color: #2196F3;
+		}
+		
+		input:focus + .slider {
+		  box-shadow: 0 0 1px #2196F3;
+		}
+		
+		input:checked + .slider:before {
+		  -webkit-transform: translateX(26px);
+		  -ms-transform: translateX(26px);
+		  transform: translateX(26px);
+		}
+		
+		/* Rounded sliders */
+		.slider.round {
+		  border-radius: 34px;
+		}
+		
+		.slider.round:before {
+		  border-radius: 50%;
+		}
+		
+		a.disable {
+		  pointer-events: none;
+		  cursor: default;
+		}
+
+	</style>
+	
+	
+	
+</head>
+<body style="overflow-y:scroll;">
+
+
+	
+	<div class="wrapper" >
+		
+		<!--SIDEBAR POCINJE -->
+		<nav id="sidebar">
+	        <div class="sidebar-header">
+	            <h3>Options</h3>
+	        </div>
+	
+<!-- SIDEBAR OPCIJE ZA ADMINA -->
+			<div id="options_admin">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="#categorySubmenuAdmin" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Category</a>
+		                <ul class="collapse list-unstyled" id="categorySubmenuAdmin">
+		                    <li>
+		                        <a href="#" id="create_category">Create category</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="show_categories">Show categories</a>
+		                    </li>
+		                    
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#messageSubmenuAdmin" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Messages</a>
+		                <ul class="collapse list-unstyled" id="messageSubmenuAdmin">
+		                    <li>
+		                        <a href="#" id="compose_admin"data-toggle="modal"
+		                   data-target="#compose_message_modal">Compose</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="my_messages_admin">Outbox</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="inbox_admin">Inbox</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#" id="href_open_modal" data-toggle="modal"
+		                   data-target="#change_role_modal">Change user role</a>
+		            </li>
+		            <li class="active">
+		                <a href="#" id="href_open_modalReset" data-toggle="modal"
+		                   data-target="#resetWarnings">Reset seller reports</a>
+		            </li>
+		        </ul>
+		        				
+			</div>
+<!-- SIDEBAR OPCIJE ZA PRODAVCA -->
+			<div id="options_seller">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="#advertisementSubmenuSeller" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Advertisements</a>
+		                <ul class="collapse list-unstyled" id="advertisementSubmenuSeller">
+		                    <li>
+		                        <a href="#" id="href_create_ad">Create ad</a>
+		                    <!--  </li>
+		                    <li>
+		                        <a href="#">Edit ad</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Delete ad</a>
+		                    </li> -->
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#myAccountSeller" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">My account</a>
+		                <ul class="collapse list-unstyled" id="myAccountSeller">
+		                    <li id="likesDislikes">
+		                        
+		                    </li>
+		                    <li>
+		                        <a href="#" id="reviewsReceived">Reviews</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#messageSubmenuSeller" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Messages</a>
+		                <ul class="collapse list-unstyled" id="messageSubmenuSeller">
+		                    <li>
+		                        <a href="#" id="compose_seller" data-toggle="modal"
+		                   data-target="#compose_message_modal">Compose</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="my_messages_seller">Outbox</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="inbox_seller">Inbox</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#">Contact</a>
+		            </li>
+		        </ul>
+		        
+		       
+			</div>
+<!-- SIDEBAR OPCIJE ZA KUPCA -->
+			<div id="options_buyer">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="#adsSubmenuBuyer" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Ads</a>
+		                <ul class="collapse list-unstyled" id="adsSubmenuBuyer">
+		                    <li>
+		                        <a href="#" id="ordered_ads_buyer">Ordered ads</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="delivered_ads_buyer">Delivered ads</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="favourite_ads_buyer">Favourite ads</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#reviewSubmenuBuyer" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Review</a>
+		                <ul class="collapse list-unstyled" id="reviewSubmenuBuyer">
+		                    <li>
+		                        <a href="#" id="create_review">Create review</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="postedReviews">Posted reviews</a>
+		                    </li>
+		               
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#messageSubmenuBuyer" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Messages</a>
+		                <ul class="collapse list-unstyled" id="messageSubmenuBuyer">
+		                    <li>
+		                        <a href="#" id="compose_buyer" data-toggle="modal"
+		                   data-target="#compose_message_modal">Compose</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="my_messages_buyer">Outbox</a>
+		                    </li>
+		                    <li>
+		                        <a href="#" id="inbox_buyer">Inbox</a>
+		                    </li>
+		                </ul>
+		            </li>
+		            <li class="active">
+		                <a href="#">Contact</a>
+		            </li>
+		        </ul>
+		        
+		       
+		        
+			</div>
+
+<!-- SIDEBAR OPCIJE ZA NEREGISTROVANOG -->
+			<div id="options_unregistered">
+		        <ul class="list-unstyled components">
+		            <!-- <li><p>Options</p></li> -->
+		            <li class="active">
+		                <a href="./login.html">Register</a>
+		            </li>
+		            <li class="active">
+		                <a href="#">Contact</a>
+		            </li>
+		        </ul>
+		        
+			</div>
+			
+			
+			
+			
+			<div class="form-group row">
+		        					<h4 class="col-sm-4">Search</h4>
+		        					<label class="switch">
+		        					<input type="checkbox" onclick="mojaNekaFun()" id="switch_search" class="col-sm-8" data-toggle="toggle" data-on="A" data-off="U">
+ 									 	<span class="slider round"></span>
+									</label>
+		        				</div>
+		        				
+		        				
+		        				<form id="form_pretraga_user" style="width:95%;" hidden="true">
+		        				
+		        					<div class="form-group">
+			    						<label for="nameSearchUser">Name</label>
+			    						<input type="text" class="form-control" id="nameSearchUser" placeholder="Username">
+			  						</div>
+			  						
+			  						<div class="form-group">
+			      						<label for="gradSearchUser">City:</label>
+										<select id="gradSearchUser" class="form-control browser-default custom-select">
+		        							<option value="" disabled selected hidden="true">Choose...</option>
+			        				        <!-- MORAS OVDE DA KROZ JS NAPUNIS GRADOVE -->
+			        					</select>
+			    					</div>
+			    					
+			    					<button type="submit" style="float:right;" class="btn btn-primary">Search</button>
+		        				</form>
+		        				
+		        				
+		        				<form id="form_pretraga" style="width:95%;">
+		        
+		        					<div class="form-group">
+			    						<label for="nameSearch">Ad name</label>
+			    						<input type="text" class="form-control" id="nameSearch" placeholder="Ad name">
+			  						</div>
+			  
+			  						<div class="form-group row">
+				  						<label for="cenaMin" class="col-sm-2">Price:</label>
+				    					<div class="form-group col-sm-5">
+				      						<input type="number" class="form-control" id="cenaMin" placeholder="Min">
+				    					</div>
+				    					<div class="form-group col-sm-5">
+				     						 <input type="number" class="form-control" id="cenaMax" placeholder="Max">
+				    					</div>
+			  						</div>
+			  
+			  						<div class="form-group row">
+			      						<label for="ocenaMin" class="col-sm-2">Likes:</label>
+			      				    	<div class="form-group col-sm-5">
+			      							<input type="number" class="form-control" id="ocenaMin" placeholder="Min">
+			      						</div>
+			      				    	<div class="form-group col-sm-5">
+			      							<input type="number" class="form-control" id="ocenaMax" placeholder="Max">
+			      						</div>
+			  						</div>
+			  
+			   						<div class="form-group">
+			      						<label for="datumMin">Date created:</label>
+			      						<input type="date" class="form-control" id="datumMin" placeholder="Date created">
+			    					</div>
+			   
+			    					<div class="form-group">
+			      						<label for="datumMax">Date expired:</label>
+			      						<input type="date" class="form-control" id="datumMax" placeholder="Date expired">
+			    					</div>
+
+			  
+			    					<div class="form-group">
+			      						<label for="gradSearch">City:</label>
+										<select id="gradSearch" class="form-control browser-default custom-select">
+		        							<option value="0" disabled selected hidden="true">Choose...</option>
+			        				        <!-- MORAS OVDE DA KROZ JS NAPUNIS GRADOVE -->
+			        					</select>
+			    					</div>
+			    
+			    					<div class="form-group">
+			      						<label for="statusSearch" id="statusLabela">Status:</label>
+			      						<select id="statusSearch" class="form-control browser-default custom-select">
+		        							<option value="" disabled selected hidden="true">Choose...</option>
+			        						<option value="0">Active</option>
+			        						<option value="1">Pending</option>
+			        						<option value="2">Delivered</option>			        			        
+			      						</select>
+			    					</div>
+			  
+			 						<button type="submit" style="float:right;" class="btn btn-primary">Search</button>
+			  
+							</form>
+					 <br>	
+					 <br>
+					 <br>	
+			<div>
+				<h4>Category search</h4>
+				
+				<div class="form-group">
+					<label for="catSearch">Category:</label>
+					<select id="catSearch"  class="form-control browser-default custom-select">
+		        		<option value="" disabled selected hidden="true">Choose...</option>
+			        <!-- MORAS OVDE DA KROZ JS NAPUNIS GRADOVE -->
+			        </select>
+				</div>
+			<button type="submit" style="float:right;" id="pretragaPoCat" onclick="funkcijaZaPrikazPoKategoriji()" class="btn btn-primary">Search by category</button>
+			</div>
+			
+	    </nav>
+		<!--GOTOV SIDEBAR -->
+
+
+		<!--HEADER STRANICE -->
+	<div id="content" style="width:100%">
+	<nav class="navbar navbar-default navbar-expand-lg navbar-fixed-top" style="background:#fff; 
+			margin-top:10px; margin-bottom:20px; border-bottom:2px solid #47748b;" >
+		<div class="container-fluid">
+			
+			<button type="button" id="sidebarCollapse" class="btn btn-primary btn-sm" >
+			
+				<div class="container hamburger">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+					
+            </button>
+			
+			<a href="#" id="top10">Top 10 ads</a>
+			
+			<a href="webshop.html" class="navbar-brand" style="color:black;">WebShop</a>
+			
+			
+			
+			<table>
+			<tr>
+				<td>
+					<label id="welcome_text" style="color:black;">Welcome, user</label>
+				</td>
+				<td>
+					<img src="Img/userMedium.png" id="img_icon"/>
+				</td>
+				<td>
+					<button class="btn btn-primary" id="btn_logout">Logout</button>
+			</tr>
+			</table>
+		
+		
+		</div>
+	
+	</nav>
+<!--GOTOV HEADER STRANICE -->
+
+
+		
+		<!-- POCINJE PAGE CONTENT -->
+		
+		<!--<div class="container-fluid">
+			<div class="row" id="advertisementItems">
+			</div>
+		</div>-->
+		
+		<!-- MODAL ZA RESET WARNINGS -->
+		<div class="modal fade" id="resetWarnings" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Reset seller reports</h5>
+		        <button type="button" class="close" id="modal_closeReset" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">User:</label>
+		        	<div class="col-sm-10">
+		        		<select class="browser-default custom-select" id="select_userReset">
+		        			<option value="" disabled selected hidden="true">Please select user...</option>
+		        		</select>
+		        	</div>
+		        </div>
+		        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" id="modal_confirmReset">Reset</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Modal za change user role-->
+		<div class="modal fade" id="change_role_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Change user role</h5>
+		        <button type="button" class="close" id="modal_close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">User:</label>
+		        	<div class="col-sm-10">
+		        		<select class="browser-default custom-select" id="select_user">
+		        			<option value="" disabled selected hidden="true">Please select user...</option>
+		        		</select>
+		        	</div>
+		        </div>
+		        
+		        <div class="form-check form-check-inline">
+				  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioAdmin" value="option1">
+				  <label class="form-check-label" for="inlineRadioAdmin">Admin</label>
+				</div>
+				<div class="form-check form-check-inline">
+				  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioSeller" value="option2">
+				  <label class="form-check-label" for="inlineRadioSeller">Seller</label>
+				</div>
+				<div class="form-check form-check-inline">
+				  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioBuyer" value="option3">
+				  <label class="form-check-label" for="inlineRadioBuyer">Buyer</label>
+				</div>
+		        	
+		        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" id="modal_cancel" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary" id="modal_confirm">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		
+		
+		<!-- MODAL ZA PRODUCT DETAILS -->
+		<div class="modal" id="modalDetalji" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Product details</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body" id="teloModalDetalji">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Modal za compose message-->
+		<div class="modal fade" id="compose_message_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Compose message</h5>
+		        <button type="button" class="close" id="modal_compose_close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Receiver:</label>
+		        	<div class="col-sm-10">
+		        		<select class="browser-default custom-select" id="select_receiver">
+		        			<option value="" disabled selected hidden="true">Please select user...</option>
+		        		</select>
+		        	</div>
+		        </div>
+		        
+		         <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Ad:</label>
+		        	<div class="col-sm-10">
+		        		<select class="browser-default custom-select" id="select_ad_compose">
+		        			<option value="" disabled selected hidden="true">Please select ad...</option>
+		        		</select>
+		        	</div>
+		        </div>
+		        
+		         <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Title:</label>
+		        	<div class="col-sm-10">
+		        		<input type="text" class="form-control" id="message_title" placeholder="Title*">
+		        	</div>
+		        </div>
+		        
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Content:</label>
+		        	<div class="col-sm-10">
+		        		<textarea rows="3" class="form-control" id="message_description" placeholder="Content*"></textarea>
+		        	</div>
+		        </div>
+		        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" id="modal_cancel_compose" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary" id="modal_confirm_compose">Send</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		
+		<!-- Modal za edit message-->
+		<div class="modal fade" id="edit_message_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="editMsg">Edit message</h5>
+		        <button type="button" class="close" id="modal_edit_close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      
+		        
+		         <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Ad:</label>
+		        	<div class="col-sm-10">
+		        		<select class="browser-default custom-select" id="select_ad_edit">
+		        			<option value="" disabled selected hidden="true">Please select ad...</option>
+		        		</select>
+		        	</div>
+		        </div>
+		        
+		         <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Title:</label>
+		        	<div class="col-sm-10">
+		        		<input type="text" class="form-control" id="message_title_edit" placeholder="Title*">
+		        	</div>
+		        </div>
+		        
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Content:</label>
+		        	<div class="col-sm-10">
+		        		<textarea rows="3" class="form-control" id="message_description_edit" placeholder="Content*"></textarea>
+		        	</div>
+		        </div>
+		        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" id="modal_cancel_edit" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary" id="modal_confirm_edit">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		
+		
+		<!-- Modal za reply message-->
+		<div class="modal fade" id="reply_message_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Compose message</h5>
+		        <button type="button" class="close" id="modal_reply_close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Receiver:</label>
+		        	<div class="col-sm-10">
+		        	
+		        		<input type="text" class="form-control" id="reply_receiver" disabled>
+		        			
+		        	</div>
+		        </div>
+		        
+		         <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Ad:</label>
+		        	<div class="col-sm-10">
+		        		<select class="browser-default custom-select" id="select_ad_reply">
+		        			<option value="" disabled selected hidden="true">Please select ad...</option>
+		        		</select>
+		        	</div>
+		        </div>
+		        
+		         <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Title:</label>
+		        	<div class="col-sm-10">
+		        		<input type="text" class="form-control" id="reply_title" disabled>
+		        	</div>
+		        </div>
+		        
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Content:</label>
+		        	<div class="col-sm-10">
+		        		<textarea rows="3" class="form-control" id="reply_description" placeholder="Content*"></textarea>
+		        	</div>
+		        </div>
+		        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" id="modal_cancel_reply" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary" id="modal_confirm_reply">Send</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		
+		
+		<div id="myMessages">
+		
+		</div>
+		
+		<div id="myInbox">
+		
+		</div>
+		
+		<div class="card-deck" id="advertisementItemsBuyer">
+		
+		</div>
+		
+		<div class="card-deck" id="advertisementItems">
+			
+		</div>
+		
+		
+		<div class="card-group" id="categoriesItems">
+		
+		</div>
+		
+		<div    id="postedRecensions">
+		
+		</div>
+		
+		
+		
+		<div id="addRecension" align="center" class="col-sm-8">
+			<h3>Add new recension</h3>
+			
+			<form id="formRecension">
+			  <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Ad:</label>
+		        	<div class="col-sm-4">
+		        		<select class="browser-default custom-select" id="adNameRecension">
+		        		</select>
+		        	</div>
+		        </div>
+		        
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Title:</label>
+		        	<div class="col-sm-4">
+		        		<input type="text" class="form-control" id="titleRecension" placeholder="Title*">
+		        	</div>
+		        </div>
+		        
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Description:</label>
+		        	<div class="col-sm-4">
+		        		<textarea rows="3" class="form-control" id="descriptionRecension" placeholder="Description*"></textarea>
+		        	</div>
+		        </div>
+		        
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Image: </label>
+		        	<div class="col-sm-5">
+							<input type="text" id="recensionImg" class="col-sm-5"
+								style="color: #8B7B8A; opacity: 1; border-radius: 5px; border: 1px solid #ced4da; padding: 6.5px;"
+								value="Image*" readonly /> <label class="btn btn-secondary">Choose
+							<input class="col-sm-5" type="file" class="form-control"  id="recensionImage" accept=".jpg,.jpeg,.png" 
+									   onchange="validateFileType1()" hidden="true"/>
+						</label>
+		        	
+		        	</div>
+		        </div>
+		        
+		        
+		        <div class="form-group row">
+		        	<label class="form-check-label col-sm-2" for="recensionDescriptionCb">Description was accurate</label>
+		        	<div>
+				    <input type="checkbox" class="form-check-input" id="recensionDescriptionCb">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group row">
+				  	<label class="form-check-label col-sm-2" for="recensionDealCb">Deal was fulfilled</label>
+				  	<div>
+				    <input type="checkbox" class="form-check-input" id="recensionDealCb">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group" align="left">
+				  <div class="form-check form-check-inline">
+					  <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="recLikeProd" value="likeProd">
+					  <label class="form-check-label" for="inlineRadio1">Like product</label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="recDislikeProd" value="dislikeProd">
+					  <label class="form-check-label" for="inlineRadio2">Dislike product</label>
+					</div>
+					</div>
+					
+					
+					<div class="form-group" align="left">
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="sellerLike" value="likeSeller">
+					  <label class="form-check-label" for="inlineRadio1">Like seller</label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="sellerDislike" value="dislikeSeller">
+					  <label class="form-check-label" for="inlineRadio2">Dislike seller</label>
+					</div>
+					</div>
+					
+					<div class="form-group row">
+				  	<label class="form-check-label col-sm-2" for="reportCb">Report seller</label>
+				  	<div>
+				    <input type="checkbox" class="form-check-input" id="reportCb">
+				    </div>
+				  </div>
+				  
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+			
+		</div>
+		
+		<!-- EDIT RECENSION -->
+		<div id="editRecension" align="center" class="col-sm-8">
+			<h3>Edit recension</h3>
+			<div class="form-group row">
+			<form id="formRecensionEdit" class="col-sm-9">
+			  <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Ad:</label>
+		        	<div class="col-sm-6">
+		        		<input class="form-control" id="adNameRecensionEdit" disabled>
+		        	</div>
+		        </div>
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Title:</label>
+		        	<div class="col-sm-6">
+		        		<input type="text" class="form-control" id="titleRecensionEdit" placeholder="Title*">
+		        	</div>
+		        </div>
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Description:</label>
+		        	<div class="col-sm-6">
+		        		<textarea rows="3" class="form-control" id="descriptionRecensionEdit" placeholder="Description*"></textarea>
+		        	</div>
+		        </div>
+		        <div class="form-group row">
+		        	<label class="control-label col-sm-2" style="margin-top:10px;">Image: </label>
+		        	<div class="col-sm-7">
+							<input type="text" id="recensionImgEdit" class="col-sm-5"
+								style="color: #8B7B8A; opacity: 1; border-radius: 5px; border: 1px solid #ced4da; padding: 6.5px;"
+								value="Image*" readonly /> <label class="btn btn-secondary">Choose
+							<input class="col-sm-5" type="file" class="form-control"  id="recensionImageEdit" accept=".jpg,.jpeg,.png" 
+									   onchange="validateFileType5()" hidden="true"/>
+						</label>
+		        	</div>
+		        </div>
+		        <div class="form-group row">
+		        	<label class="form-check-label col-sm-2" for="recensionDescriptionCbEdit">Description was accurate</label>
+		        	<div>
+				    <input type="checkbox" class="form-check-input" id="recensionDescriptionCbEdit">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group row">
+				  	<label class="form-check-label col-sm-2" for="recensionDealCbEdit">Deal was fulfilled</label>
+				  	<div>
+				    <input type="checkbox" class="form-check-input" id="recensionDealCbEdit">
+				    </div>
+				  </div>
+			  <button type="submit" class="btn btn-primary">Save changes</button>
+			</form>
+			<div class="col-sm-4">
+			<img id="slikaEditDruga" style="margin-left:5px; margin-top:20px;" src="">
+			</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="addCategory"  style="min-width:800px;">
+			
+				<h3 >Add new category</h3>
+				<form id="cat_forma" style="width:100%">
+					<table style="min-width:65%">
+						<tr>
+							<td ><label for="cat_name">Name</label> </td>
+							<td ><input class="form-control reg_class" type="text" id="cat_name" placeholder="Name*"/></td>
+						</tr>
+						<tr>
+							<td><label for="cat_description">Description</label> </td>
+							<td><input class="form-control reg_class" type="text" id="cat_description" placeholder="Description*"/></td>
+						</tr>
+						<tr>
+							<td><label for="cat_select">Ads</label> </td>					
+							<td>
+							<select class="custom-select" id="cat_select" multiple size="15">
+		        			<option value="" disabled selected hidden="true">Please select ads...</option>
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"  align="right">
+								<input type="submit" class="btn btn-primary" id="btn_create_cat" value="Create"/>
+							</td>
+						</tr>
+						
+					</table>
+				</form>
+		</div>
+		
+		
+		<div id="editCategory"  style="min-width:800px;">
+			
+				<h3 >Edit category</h3>
+				<form id="cat_formaEdit" style="width:100%">
+					<table style="min-width:65%">
+						<tr>
+							<td ><label for="cat_nameEdit">Name</label> </td>
+							<td ><input class="form-control reg_class" type="text" id="cat_nameEdit" placeholder="Name*"/></td>
+						</tr>
+						<tr>
+							<td><label for="cat_descriptionEdit">Description</label> </td>
+							<td><input class="form-control reg_class" type="text" id="cat_descriptionEdit" placeholder="Description*"/></td>
+						</tr>
+						<tr>
+							<td><label for="cat_selectEdit">Ads</label> </td>					
+							<td>
+							<select class="custom-select" id="cat_selectEdit" multiple size="15">
+		        			<option value="" disabled selected hidden="true">Please select ads...</option>
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"  align="right">
+								<input type="submit" class="btn btn-primary" id="btn_edit_cat" value="Save changes"/>
+							</td>
+						</tr>
+						
+					</table>
+				</form>
+		</div>
+		
+		
+		
+		
+		
+		<div class="container" id="addAdvertisement">
+			<form id="forma"  style="width:100%">
+					<table>
+						<tr >
+							<td ><label for="ad_name">Name</label> </td>
+							<td><input class="form-control" type="text" id="ad_name" placeholder="Name*"/></td>
+						</tr>
+						<tr>
+							<td><label for="ad_price">Price</label> </td>
+							<td><input class="form-control" type="number" id="ad_price" placeholder="Price*"/></td>
+						</tr>
+						<tr>
+							<td><label for="ad_description">Description</label> </td>
+							<td><input class="form-control" type="text" id="ad_description" placeholder="Description*"/></td>
+						</tr>
+						<tr>
+							<td><label for="ad_img">Image</label> </td>
+							<td>
+								
+							
+							
+								<input type="text"  id="ad_path"
+										style="color: #8B7B8A; opacity:1; border-radius:5px; border:1px solid #ced4da; padding:6.5px;"
+										value="Image*" readonly/>
+								<label class="btn btn-secondary">Choose
+								<input type="file" class="form-control"  id="ad_img" accept=".jpg,.jpeg,.png" 
+									   onchange="validateFileType()" hidden="true"/>
+								</label>
+								
+							</td>
+								
+						</tr>
+						<tr>
+							<td><label for="ad_city">City</label> </td>
+							<td><input class="form-control" type="text" id="ad_city" placeholder="City*"/></td>
+						</tr>
+						<tr>
+							<td colspan="2"  align="right">
+								<button type="submit" class="btn btn-primary" id="btn_post_ad" value="Post ad" >Post ad</button>
+							</td>
+						
+						
+							
+						</tr>
+						
+					</table>
+				</form>
+				
+				<button class="btn btn-danger" id="btn_cancel_ad" value="Cancel" >Cancel</button>
+					
+		</div>
+		
+		
+		<div class="container" id="editAd">
+			<form id="formaEditAd"  style="width:100%">
+					<table class="col-sm-5">
+						<tr >
+							<td ><label for="ad_nameEdit">Name</label> </td>
+							<td><input class="form-control" type="text" id="ad_nameEdit" placeholder="Name*"/></td>
+							<td rowspan="5"><img id="slikaEditPrva" style="margin-left:5px; margin-top:20px;" src=""></td>
+							
+						</tr>
+						<tr>
+							<td><label for="ad_priceEdit">Price</label> </td>
+							<td><input class="form-control" type="number" id="ad_priceEdit" placeholder="Price*"/></td>
+						</tr>
+						<tr>
+							<td><label for="ad_descriptionEdit">Description</label> </td>
+							<td><input class="form-control" type="text" id="ad_descriptionEdit" placeholder="Description*"/></td>
+						</tr>
+						<tr>
+							<td><label for="ad_imgEdit">Image</label> </td>
+							<td>
+								
+							
+							
+								<input type="text"  id="ad_pathEdit"
+										style="color: #8B7B8A; opacity:1; border-radius:5px; border:1px solid #ced4da; padding:6.5px;"
+										value="Image*" readonly/>
+								<label class="btn btn-secondary">Choose
+								<input type="file" class="form-control"  id="ad_imgEdit" accept=".jpg,.jpeg,.png" 
+									   onchange="validateFileType2()" hidden="true"/>
+								</label>
+								
+							</td>
+								
+						</tr>
+						<tr>
+							<td><label for="ad_cityEdit">City</label> </td>
+							<td><input class="form-control" type="text" id="ad_cityEdit" placeholder="City*"/></td>
+						</tr>
+						<tr>
+							<td colspan="2"  align="right">
+								<button type="submit" class="btn btn-primary" id="btn_post_adEdit" value="Post ad" >Save changes</button>
+							</td>
+						
+						
+							
+						</tr>
+						
+					</table>
+				</form>
+								
+				<button class="btn btn-danger" id="btn_cancel_adEdit" value="Cancel" >Cancel</button>
+					
+		</div>
+		
+		<!-- GOTOV PAGE CONTENT -->
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+	function mojaNekaFun(){
+		if($("#switch_search").prop('checked')==true){
+			console.log($("#switch_search").prop('checked'));
+			$("#form_pretraga").attr("hidden",true);
+			$("#form_pretraga_user").attr("hidden",false);
+			
+		}
+		else{
+			$("#form_pretraga").attr("hidden",false);
+			$("#form_pretraga_user").attr("hidden",true);
+			
+		}
+	}
+
+	</script>
+	
+	<!--  <h1></h1>
+		Raspoloživi proizvodi:
+		<table border="1" id="tabela">
+			<thead>
+				<tr bgcolor="lightgrey">
+					<th>Naziv</th>
+					<th>Cena</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+
+		<p><button id="dodaj">Dodaj</button></p>
+		
+		<form id="forma" hidden="true">
+			<table>
+				<tr><td>Naziv</td><td><input type="text" name="name"></td></tr>
+				<tr><td>Cena</td><td><input type="number" name="price"></td></tr>
+				<tr><td><input type="submit" value="Pošalji"></td></tr>
+			</table>
+			<p id="error" hidden="true"></p>
+			<p id="success" hidden="true"></p>
+		</form>
+		-->
+</body>
+</html>

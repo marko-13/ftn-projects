@@ -1,0 +1,224 @@
+<html>
+<head>
+	<title>Login/register</title>
+	<meta charset="UTF-8">
+	<script src="jquery-3.3.1.min.js"></script>
+	<link href="Bootstrap/css/bootstrap.minFlaty.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+	<script src="login.js"></script>
+	
+<!--STYLOVI  -->
+	<style>
+		.carousel {
+  			max-width:450px;
+  			max-height:450px;
+  			margin-bottom:80px;
+		}
+		
+		.carousel-caption {
+		    position: relative;
+		    left: auto;
+		    right: auto;
+		}
+		
+		.carousel-control-next,
+		.carousel-control-prev {
+    		filter: invert(100%);
+		}
+	</style>
+<!--GOTOVI STYLOVI  -->
+</head>
+<body>
+
+<!--HEADER STRANICE  -->
+	<nav class="navbar navbar-default navbar-fixed-top" style="background:DimGrey;">
+		
+		<div class="container">
+		
+			<a href="login.html" class="navbar-brand" style="color:#fff;">WebShop</a>
+			
+			
+			
+			<table class="nav navbar-nav">
+			<tr>
+				<td>
+					<label for="username" >Username</label>
+				</td>
+			
+				<td>
+					<label for="password">Password</label>
+				</td>
+			</tr>
+			
+			<tr>
+			<td>
+					<input class="form-control" type="text" id="username" placeholder="Username*"/>
+			</td>
+				
+			<td>
+					<input class="form-control" type="password" id="password" placeholder="Password*"/>
+			</td>
+			
+			<td>
+				<div>
+					<button class="btn btn-primary" id="btn_login" disabled>Login</button>
+					
+				</div>
+			</td>
+			<td>
+				<div>
+					<button class="btn btn-primary" id="btn_guest">Continue as guest</button>
+				</div>
+			</td>
+			</tr>
+			</table>
+			
+		
+		</div>
+	</nav>
+<!--GOTOV HEADER -->
+
+
+	<div class="container">
+		<div class="row" style="margin-top:30px;">
+		
+<!-- LEVI DEO STRANICE CARUSEL -->
+			<div class="col-md-6 col-lg-6">
+				
+				<div class="carousel slide" id="my_slide" data-ride="carousel">
+					<div class="carousel-inner">
+					
+						<div class="carousel-item active">
+							<img  src="Img/banner7.png" class="img-responsive d-block w-100">
+							<div class="carousel-caption">
+								<h2 style="background:DimGrey; margin-top: 25px;">Fast shopping</h2>
+							</div>
+						</div>
+						
+						<div class="carousel-item">
+							<img  src="Img/banner2.png" class="img-responsive d-block w-100">
+							<div class="carousel-caption">
+								<h2 style="background:DimGrey; margin-top: 25px;">Secure shopping</h2>
+							</div>
+						</div>
+						
+						<div class="carousel-item">
+							<img  src="Img/banner5.png" class="img-responsive d-block w-100">
+							<div class="carousel-caption">
+								<h2 style="background:DimGrey; margin-top: 25px;">Affordable prices</h2>
+							</div>
+						</div>
+						
+						<div class="carousel-item">
+							<img   src="Img/banner6.png" class="img-responsive d-block w-100">
+							<div class="carousel-caption">
+								<h2 style="background:DimGrey; margin-top: 25px;">Free shipping</h2>
+							</div>
+						</div>
+						
+					</div>
+					
+					<a class="carousel-control-prev" href="#my_slide" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					
+					<a class="carousel-control-next" href="#my_slide" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+					
+				</div>
+				
+			</div>
+			
+<!-- GOTOV LEVI DEO STRANICE CARUSEL -->
+
+
+<!-- DESNI DEO STRANICE REGISTER -->
+			<div class="col-md-6 col-lg-6">
+				<h4>No account? No problem, register now for free!
+				</h4>
+				
+				<br>
+				
+				<form id="forma">
+					<table>
+						<tr>
+							<td><label for="reg_username">Username</label> </td>
+							<td><input class="form-control reg_class" type="text" id="reg_username" placeholder="Username*"/></td>
+						</tr>
+						<tr>
+							<td><label for="reg_passwrod">Password</label> </td>
+							<td><input class="form-control reg_class" type="text" id="reg_password" placeholder="Password*"/></td>
+						</tr>
+						<tr>
+							<td><label for="reg_firstN">First name</label> </td>
+							<td><input class="form-control reg_class" type="text" id="reg_firstN" placeholder="First name*"/></td>
+						</tr>
+						<tr>
+							<td><label for="reg_lastN">Last name</label> </td>
+							<td><input class="form-control reg_class" type="text" id="reg_lastN" placeholder="Last name*"/></td>
+						</tr>
+						<tr>
+							<td><label for="reg_phone">Phone</label> </td>
+							<td><input class="form-control reg_class" type="text" id="reg_phone" placeholder="Phone*"/></td>
+						</tr>
+						<tr>
+							<td><label for="reg_city">City</label> </td>
+							<td><input class="form-control reg_class" type="text" id="reg_city" placeholder="City*"/></td>
+						</tr>
+						<tr>
+							<td><label for="reg_email">E-mail</label> </td>
+							<td><input class="form-control reg_class" type="text" id="reg_email" placeholder="E-mail*"/></td>
+						</tr>
+						<tr>
+							<td colspan="2"  align="right">
+								<input type="submit" class="btn btn-primary" id="btn_register" value="Register" disabled/>
+							</td>
+						</tr>
+						
+					</table>
+				</form>
+			</div>
+<!-- GOTOV DESNI DEO STRANICE REGISTER -->
+			
+			
+		</div>
+	</div>
+			
+
+
+
+
+<!--  	<h1>ISPIS LOGIN FORME</h1>
+	<form id="forma">
+		<table>
+			<tr><td>Username</td><td><input type="text" name="username"></td></tr>
+			<tr><td>Password</td><td><input type="password" name="password"></td></tr>
+			<tr><td><input type="submit" value="Login"></td></tr>
+		</table>
+		<p id="error" hidden="true"></p>
+		<p id="success" hidden="true"></p>
+		
+		
+	</form>
+	
+	<a href="register.html">Registrujte se</a>
+	
+	
+	<div class="container-fluid">
+		<a href="#" class="btn btn-primary">primary</a>
+	</div>
+	
+-->
+	
+	<script>
+		$(function(){
+			$('.carousel').carousel({
+				interval:3000,
+				pause:false,
+				wrap:true
+			});
+		});
+	</script>
+</body>
+</html>
