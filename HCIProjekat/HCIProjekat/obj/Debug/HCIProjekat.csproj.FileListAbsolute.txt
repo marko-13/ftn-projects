@@ -1,0 +1,396 @@
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+E:\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+E:\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+E:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+E:\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+E:\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+E:\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+E:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+E:\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+E:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+E:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+E:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+F:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+F:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+F:\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+F:\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+F:\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+F:\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+F:\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+F:\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+F:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+F:\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+F:\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+F:\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+D:\Desktop\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+E:\HCI\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+D:\Desktop\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+D:\Desktop\HCI\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.g.cs
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.baml
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.dll
+E:\HCISUbota\HCI trenutni\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+D:\Desktop\HCIBACKUP3\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialOne.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialOne.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialTag.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialType.g.cs
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialTag.baml
+D:\Desktop\HCIFin\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialType.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe.config
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.exe
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\HCIProjekat.pdb
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csprojAssemblyReference.cache
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialOne.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialTag.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialType.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\App.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.cache
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat_MarkupCompile.lref
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddOne.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddTag.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\AddType.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniOne.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniTag.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\IzmeniType.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\PodaciPrikaz.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialOne.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialTag.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\Forme\TutorialType.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\MainWindow.baml
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.g.resources
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.Properties.Resources.resources
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.GenerateResource.cache
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CoreCompileInputs.cache
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.csproj.CopyComplete
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.exe
+D:\Desktop\HciFinalno\HCIProjekat\HCIProjekat\obj\Debug\HCIProjekat.pdb
